@@ -1,0 +1,136 @@
+.radio {
+    animation-name: radio;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+.border__radio {
+    border: 2px solid;
+    border-radius: 50px;
+    width: 80px;
+    height: 35px;
+    margin-top: 5px;
+}
+.point{
+    position: absolute;
+    animation-name: point;
+    animation-duration: 1.5s;
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+    animation-fill-mode: forwards;
+}
+@keyframes point{
+
+
+    0%{
+
+    }
+
+    100%{
+        transform: rotate(180deg);
+    }
+
+
+}
+@keyframes radio {
+
+
+    0%{
+        left: 10px;
+        background: red;
+    }
+
+    50%{
+        background: red;
+    }
+
+    70%{
+        background: rgb(11, 228, 11);
+    }
+
+    100%{
+        left: 55px;
+        background: rgb(11, 228, 11);
+        
+    }
+
+
+}
+
+
+
+
+.radio1 {
+    animation-name: radio1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+.border__radio1 {
+    border: 2px solid;
+    border-radius: 50px;
+    width: 80px;
+    height: 35px;
+    margin-top: 5px;
+}
+.point1{
+    position: absolute;
+    animation-name: point1;
+    animation-duration: 1.5s;
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+    animation-fill-mode: forwards;
+}
+@keyframes point1{
+
+
+    0%{
+        
+    }
+
+    100%{
+        transform: rotate(-180deg);
+    }
+
+
+}
+@keyframes radio1 {
+
+
+    0%{
+        left: 54.5px;
+        background: rgb(11, 228, 11);
+    }
+
+    50%{
+        background: red;
+    }
+
+    70%{
+        background: red;
+    }
+
+    100%{
+        left: 10px;
+        background: red;
+        
+    }
+
+
+}
